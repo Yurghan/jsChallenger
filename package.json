@@ -1,0 +1,24 @@
+{
+  "name": "jschall",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test2": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yurghan/jsChallenger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yurghan/jsChallenger/issues"
+  },
+  "homepage": "https://github.com/Yurghan/jsChallenger#readme",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
+}
