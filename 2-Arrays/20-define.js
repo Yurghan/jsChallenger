@@ -4,9 +4,11 @@
 // The other elements should be the elements of the original array
 // Try not to mutate the original array
 function myFunction(arr, num) {
-  let zeroOrSix = num < 6 ? 0 : num;
-  arr.unshift(zeroOrSix);
-  console.log(arr);
+  return [...(num > 5 ? [num] : [0]), ...arr];
 }
 
-myFunction(['a', 'b'], 5);
+function myFunction2(arr, num) {
+  let zeroOrSix = num < 6 ? 0 : num;
+  arr.unshift(zeroOrSix);
+  return arr;
+}
