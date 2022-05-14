@@ -6,6 +6,6 @@ function myFunction(a, b) {
   return a.toISOString() === b.toISOString();
 }
 
-myFunction(new Date('2000/01/01 08:00:00'), new Date('2000/01/01 08:00:00'));
-Expected;
-true;
+function myFunction2(a, b) {
+  return a.getTime() === b.getTime();
+}
