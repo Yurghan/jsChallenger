@@ -6,7 +6,5 @@ function myFunction(a, b) {
   a.forEach((el) => {
     if (b.has(el)) result.add(el);
   });
-  console.log(result);
+  return result;
 }
-
-myFunction(new Set([1, 2, 3]), new Set([2, 3, 4]));
